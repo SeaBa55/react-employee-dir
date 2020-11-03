@@ -1,66 +1,71 @@
-## Available Scripts
+# Unit 19 React Homework: Employee Directory
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This application is an employee search tool, created with react. This app allows users to pinpoint employee details with the implementation of sort toggle buttons as the data table column labels, and a dropdown integrated search bar that enables the user to search by column.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![React-App](./react-employee-directory/public/React-App.gif)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+* [Installation](#installation) 
+* [License](#license) 
+* [Contributors](#contributing) 
+* [Tests](#tests)
+* [Revisions](#Revisions) 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Run the app locally by navigating to the react-app directry (react-employee-directory) in terminal and running the following commands:
+> npm i
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> npm start
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Try it on the web:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> https://seaba55.github.io/employee-directory/
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![License](https://img.shields.io/badge/License-none-blue.svg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+none
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Tests
 
-## Learn More
+none
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Revisions
+employee-directory_v1.0 - Initial commit: Added basic README, react file structure, and .gitignore files.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+employee-directory_v1.1 - Random user API integrated and displaying profile image, first and last name for 20 random employees.
 
-### Code Splitting
+employee-directory_v1.2 - Added unique key prop to my DataRow divs using the index value used in the map method.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+employee-directory_v1.3 - Added a lable row above the current table structure.
 
-### Analyzing the Bundle Size
+employee-directory_v1.4 - Added a search bar component above the table area. Restructured table divs using bootstrap styling.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+employee-directory_v1.5 - Changed directory configuration.
 
-### Making a Progressive Web App
+employee-directory_v1.6 - Added toggle buttons to the table col lables.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+employee-directory_v1.7 - Added sort functionality to data lable toggle buttons.
 
-### Advanced Configuration
+employee-directory_v1.8 - Added crude search feature, which is currently only capable of searching by first name (wildcard).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+employee-directory_v1.9 - Changed the search button to a dropdown, which enables the user to select the column for which the search will be applied to.
 
-### Deployment
+employee-directory_v2.0 - Refactored DataLabeles.js. Converted hard coded elements to programtic elements based on the number of columns.  
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+employee-directory_v2.1 - Consolidated first and last names into a single row, and added additional employee information columns. Refactored the code for modularity, where now the rendered data is controlled at a single point in the useEffect hook return object in component Main.
 
-### `npm run build` fails to minify
+employee-directory_v2.2 - Updated styles for more uniform aesthetic.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- - -
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
