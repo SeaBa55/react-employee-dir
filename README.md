@@ -4,7 +4,7 @@
 
 This application is an employee search tool, created with react. This app allows users to pinpoint employee details with the implementation of sort toggle buttons as the data table column labels, and a dropdown integrated search bar that enables the user to search by column.
 
-![React-App](./react-employee-directory/public/React-App.gif)
+![React-App](./public/React-App.gif)
 
 ## Table of Contents
 
